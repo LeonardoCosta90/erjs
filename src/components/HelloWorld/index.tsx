@@ -1,11 +1,11 @@
 export function HelloWorld() {
-  const name = "Leonardo";
+  const name = 'Leonardo';
   const title = <h1>Hello, {name}!!!</h1>;
 
-  if (name === "Leonardo") {
+  if (name === 'Leonardo') {
     return (
       <div>
-        <h1 style={{ background: "red" }}>{name}</h1>
+        <h1 style={{ background: 'red' }}>{name}</h1>
       </div>
     );
   }
