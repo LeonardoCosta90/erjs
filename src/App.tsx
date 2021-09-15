@@ -1,10 +1,14 @@
 import './App.css';
-import { HelloWorld } from './components/HelloWorld';
+import Clock from './components/Clock';
+import Person from './components/Person';
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld></HelloWorld>
+      <header className="App-header">
+        <Clock />
+        <Person />
+      </header>
     </div>
   );
 }
